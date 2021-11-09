@@ -27,9 +27,17 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/portal.css"
             ],
-            "scripts": ["node_modules/bootstrap/dist/js/bootstrap.js"]
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.js",
+              "src/assets/plugins/fontawesome/js/all.js",
+              "src/assets/plugins/popper.min.js",
+              "src/assets/plugins/chart.js/chart.min.js",
+              "src/assets/js/index-charts.js",
+              "src/assets/js/app.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -93,10 +101,18 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [              
-              "src/style.css"
+            "styles": [
+              "src/style.css",
+              "src/assets/css/portal.css"
             ],
-            "scripts": ["node_modules/bootstrap/dist/js/bootstrap.js"]
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.js",
+              "src/assets/plugins/fontawesome/js/all.js",
+              "src/assets/plugins/popper.min.js",
+              "src/assets/plugins/chart.js/chart.min.js",
+              "src/assets/js/index-charts.js",
+              "src/assets/js/app.js"
+            ]
           }
         }
       }
