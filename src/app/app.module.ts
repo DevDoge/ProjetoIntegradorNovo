@@ -9,6 +9,8 @@ import { SidebarComponent } from './header/sidebar/sidebar.component';
 import { TopbarComponent } from './header/topbar/topbar.component';
 import { DashboardComponent } from './wrapper/dashboard/dashboard.component';
 import { AccountComponent } from './wrapper/account/account.component';
+import {DocsComponent} from "./wrapper/docs/docs.component";
+import {OrdersComponent} from "./wrapper/orders/orders.component";
 
 @NgModule({
   declarations: [
@@ -19,7 +21,11 @@ import { AccountComponent } from './wrapper/account/account.component';
     SidebarComponent,
     TopbarComponent,
     DashboardComponent,
-    AccountComponent
+    AccountComponent,
+    DocsComponent,
+    OrdersComponent,
+    DocsComponent,
+    OrdersComponent
   ],
   imports: [
     BrowserModule
