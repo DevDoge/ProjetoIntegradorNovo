@@ -11,6 +11,9 @@ import { DashboardComponent } from './wrapper/dashboard/dashboard.component';
 import { AccountComponent } from './wrapper/account/account.component';
 import {DocsComponent} from "./wrapper/docs/docs.component";
 import {OrdersComponent} from "./wrapper/orders/orders.component";
+import { SettingsComponent } from './wrapper/settings/settings.component';
+import { NotificationsComponent } from './wrapper/notifications/notifications.component';
+import { HelpComponent } from './wrapper/help/help.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +28,10 @@ import {OrdersComponent} from "./wrapper/orders/orders.component";
     DocsComponent,
     OrdersComponent,
     DocsComponent,
-    OrdersComponent
+    OrdersComponent,
+    SettingsComponent,
+    NotificationsComponent,
+    HelpComponent
   ],
   imports: [
     BrowserModule
