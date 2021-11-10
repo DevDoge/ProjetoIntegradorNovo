@@ -7,6 +7,8 @@ import { HeaderComponent } from './header/header.component';
 import { WrapperComponent } from './wrapper/wrapper.component';
 import { SidebarComponent } from './header/sidebar/sidebar.component';
 import { TopbarComponent } from './header/topbar/topbar.component';
+import { DashboardComponent } from './wrapper/dashboard/dashboard.component';
+import { AccountComponent } from './wrapper/account/account.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { TopbarComponent } from './header/topbar/topbar.component';
     HeaderComponent,
     WrapperComponent,
     SidebarComponent,
-    TopbarComponent
+    TopbarComponent,
+    DashboardComponent,
+    AccountComponent
   ],
   imports: [
     BrowserModule
