@@ -6,6 +6,7 @@ import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { WrapperComponent } from './wrapper/wrapper.component';
 import { SidebarComponent } from './header/sidebar/sidebar.component';
+import { TopbarComponent } from './header/topbar/topbar.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { SidebarComponent } from './header/sidebar/sidebar.component';
     FooterComponent,
     HeaderComponent,
     WrapperComponent,
-    SidebarComponent
+    SidebarComponent,
+    TopbarComponent
   ],
   imports: [
     BrowserModule
