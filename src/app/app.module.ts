@@ -14,6 +14,11 @@ import {OrdersComponent} from "./wrapper/orders/orders.component";
 import { SettingsComponent } from './wrapper/settings/settings.component';
 import { NotificationsComponent } from './wrapper/notifications/notifications.component';
 import { HelpComponent } from './wrapper/help/help.component';
+import { LoginComponent } from './external/login/login.component';
+import { ResetPasswordComponent } from './external/reset-password/reset-password.component';
+import { SingupComponent } from './external/singup/singup.component';
+import { ErrorComponent } from './external/error/error.component';
+import { ChartsComponent } from './wrapper/charts/charts.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +36,12 @@ import { HelpComponent } from './wrapper/help/help.component';
     OrdersComponent,
     SettingsComponent,
     NotificationsComponent,
-    HelpComponent
+    HelpComponent,
+    LoginComponent,
+    ResetPasswordComponent,
+    SingupComponent,
+    ErrorComponent,
+    ChartsComponent
   ],
   imports: [
     BrowserModule
