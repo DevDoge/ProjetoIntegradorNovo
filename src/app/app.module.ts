@@ -19,6 +19,10 @@ import { ResetPasswordComponent } from './external/reset-password/reset-password
 import { SingupComponent } from './external/singup/singup.component';
 import { ErrorComponent } from './external/error/error.component';
 import { ChartsComponent } from './wrapper/charts/charts.component';
+import {AppRoutingModule} from "./app-routing/app-routing.module";
+import { WrapperAccountComponent } from './wrapper/account/wrapper-account/wrapper-account.component';
+import { LayoutComponent } from './layout/layout.component';
+import { WrapperSettingsComponent } from './wrapper/settings/wrapper-settings/wrapper-settings.component';
 
 @NgModule({
   declarations: [
@@ -41,10 +45,14 @@ import { ChartsComponent } from './wrapper/charts/charts.component';
     ResetPasswordComponent,
     SingupComponent,
     ErrorComponent,
-    ChartsComponent
+    ChartsComponent,
+    WrapperAccountComponent,
+    LayoutComponent,
+    WrapperSettingsComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
