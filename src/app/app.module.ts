@@ -23,6 +23,10 @@ import {AppRoutingModule} from "./app-routing/app-routing.module";
 import { WrapperAccountComponent } from './wrapper/account/wrapper-account/wrapper-account.component';
 import { LayoutComponent } from './layout/layout.component';
 import { WrapperSettingsComponent } from './wrapper/settings/wrapper-settings/wrapper-settings.component';
+import { WrapperNotificationsComponent } from './wrapper/notifications/wrapper-notifications/wrapper-notifications.component';
+import { WrapperChartsComponent } from './wrapper/charts/wrapper-charts/wrapper-charts.component';
+import { WrapperHelpComponent } from './wrapper/help/wrapper-help/wrapper-help.component';
+import { WrapperOrdersComponent } from './wrapper/orders/wrapper-orders/wrapper-orders.component';
 
 @NgModule({
   declarations: [
@@ -49,6 +53,10 @@ import { WrapperSettingsComponent } from './wrapper/settings/wrapper-settings/wr
     WrapperAccountComponent,
     LayoutComponent,
     WrapperSettingsComponent,
+    WrapperNotificationsComponent,
+    WrapperChartsComponent,
+    WrapperHelpComponent,
+    WrapperOrdersComponent,
   ],
   imports: [
     BrowserModule,
