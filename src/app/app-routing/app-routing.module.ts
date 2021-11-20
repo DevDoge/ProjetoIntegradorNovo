@@ -8,7 +8,12 @@ import {ErrorComponent} from "../external/error/error.component";
 import {WrapperNotificationsComponent} from "../wrapper/notifications/wrapper-notifications/wrapper-notifications.component";
 import {WrapperChartsComponent} from "../wrapper/charts/wrapper-charts/wrapper-charts.component";
 import {WrapperHelpComponent} from "../wrapper/help/wrapper-help/wrapper-help.component";
-import {WrapperOrdersComponent} from "../wrapper/orders/wrapper-orders/wrapper-orders.component";
+import {WrapperTransactionsComponent} from "../wrapper/transactions/wrapper-transactions/wrapper-transactions.component";
+import {WrapperIncomesComponent} from "../wrapper/incomes/wrapper-incomes/wrapper-incomes.component";
+import {WrapperExpensesComponent} from "../wrapper/expenses/wrapper-expenses/wrapper-expenses.component";
+import {WrapperAccountsComponent} from "../wrapper/accounts/wrapper-accounts/wrapper-accounts.component";
+import {WrapperCategoriesComponent} from "../wrapper/categories/wrapper-categories/wrapper-categories.component";
+
 
 const routes: Routes = [
   {path: '', redirectTo: 'dash', pathMatch: 'full'},
@@ -22,7 +27,11 @@ const routes: Routes = [
       {path: 'notifications', component: WrapperNotificationsComponent},
       {path: 'charts', component: WrapperChartsComponent},
       {path: 'help', component: WrapperHelpComponent},
-      {path: 'orders', component: WrapperOrdersComponent},
+      {path: 'transactions', component: WrapperTransactionsComponent},
+      {path: 'incomes', component: WrapperIncomesComponent},
+      {path: 'expenses', component: WrapperExpensesComponent},
+      {path: 'accounts', component: WrapperAccountsComponent},
+      {path: 'categories', component: WrapperCategoriesComponent},
       {path: '**', component: ErrorComponent}
 
     ]

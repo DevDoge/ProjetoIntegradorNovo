@@ -10,7 +10,11 @@ import { TopbarComponent } from './header/topbar/topbar.component';
 import { DashboardComponent } from './wrapper/dashboard/dashboard.component';
 import { AccountComponent } from './wrapper/account/account.component';
 import {DocsComponent} from "./wrapper/docs/docs.component";
-import {OrdersComponent} from "./wrapper/orders/orders.component";
+import {TransactionsComponent} from "./wrapper/transactions/transactions.component";
+import {IncomesComponent} from "./wrapper/incomes/incomes.component";
+import {ExpensesComponent} from "./wrapper/expenses/expenses.component";
+import {AccountsComponent} from "./wrapper/accounts/accounts.component";
+import {CategoriesComponent} from "./wrapper/categories/categories.component";
 import { SettingsComponent } from './wrapper/settings/settings.component';
 import { NotificationsComponent } from './wrapper/notifications/notifications.component';
 import { HelpComponent } from './wrapper/help/help.component';
@@ -26,7 +30,11 @@ import { WrapperSettingsComponent } from './wrapper/settings/wrapper-settings/wr
 import { WrapperNotificationsComponent } from './wrapper/notifications/wrapper-notifications/wrapper-notifications.component';
 import { WrapperChartsComponent } from './wrapper/charts/wrapper-charts/wrapper-charts.component';
 import { WrapperHelpComponent } from './wrapper/help/wrapper-help/wrapper-help.component';
-import { WrapperOrdersComponent } from './wrapper/orders/wrapper-orders/wrapper-orders.component';
+import {WrapperTransactionsComponent} from "./wrapper/transactions/wrapper-transactions/wrapper-transactions.component";
+import {WrapperIncomesComponent} from "./wrapper/incomes/wrapper-incomes/wrapper-incomes.component";
+import {WrapperExpensesComponent} from "./wrapper/expenses/wrapper-expenses/wrapper-expenses.component";
+import {WrapperAccountsComponent} from "./wrapper/accounts/wrapper-accounts/wrapper-accounts.component";
+import {WrapperCategoriesComponent} from "./wrapper/categories/wrapper-categories/wrapper-categories.component";
 
 @NgModule({
   declarations: [
@@ -39,9 +47,12 @@ import { WrapperOrdersComponent } from './wrapper/orders/wrapper-orders/wrapper-
     DashboardComponent,
     AccountComponent,
     DocsComponent,
-    OrdersComponent,
+    TransactionsComponent,
+    IncomesComponent,
+    ExpensesComponent,
+    AccountsComponent,
+    CategoriesComponent,
     DocsComponent,
-    OrdersComponent,
     SettingsComponent,
     NotificationsComponent,
     HelpComponent,
@@ -56,7 +67,11 @@ import { WrapperOrdersComponent } from './wrapper/orders/wrapper-orders/wrapper-
     WrapperNotificationsComponent,
     WrapperChartsComponent,
     WrapperHelpComponent,
-    WrapperOrdersComponent,
+    WrapperTransactionsComponent,
+    WrapperIncomesComponent,
+    WrapperExpensesComponent,
+    WrapperAccountsComponent,
+    WrapperCategoriesComponent,
   ],
   imports: [
     BrowserModule,

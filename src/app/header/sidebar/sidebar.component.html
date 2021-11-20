@@ -12,7 +12,6 @@
       <ul class="app-menu list-unstyled accordion" id="menu-accordion">
 
         <li class="nav-item">
-          <!--//Bootstrap Icons: https://icons.getbootstrap.com/ -->
           <a class="nav-link active" [routerLink]="['dash']">
 						        <span class="nav-icon">
 						        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-house-door" fill="currentColor"
@@ -27,8 +26,7 @@
         </li><!--//nav-item-->
 
         <li class="nav-item">
-          <!--//Bootstrap Icons: https://icons.getbootstrap.com/ -->
-          <a class="nav-link" [routerLink]="['orders']">
+          <a class="nav-link" [routerLink]="['transactions']">
 						        <span class="nav-icon">
 						        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left-right" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M1 11.5a.5.5 0 0 0 .5.5h11.793l-3.147 3.146a.5.5 0 0 0 .708.708l4-4a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 11H1.5a.5.5 0 0 0-.5.5zm14-7a.5.5 0 0 1-.5.5H2.707l3.147 3.146a.5.5 0 1 1-.708.708l-4-4a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 4H14.5a.5.5 0 0 1 .5.5z"/>
@@ -39,8 +37,7 @@
         </li><!--//nav-item-->
 
         <li class="nav-item">
-          <!--//Bootstrap Icons: https://icons.getbootstrap.com/ -->
-          <a class="nav-link" [routerLink]="['orders']">
+          <a class="nav-link" [routerLink]="['incomes']">
 						        <span class="nav-icon">
 						        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-graph-up-arrow" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M0 0h1v15h15v1H0V0Zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5Z"/>
@@ -51,8 +48,7 @@
         </li><!--//nav-item-->
 
         <li class="nav-item">
-          <!--//Bootstrap Icons: https://icons.getbootstrap.com/ -->
-          <a class="nav-link" [routerLink]="['orders']">
+          <a class="nav-link" [routerLink]="['expenses']">
 						        <span class="nav-icon">
 						        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-graph-down-arrow" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M0 0h1v15h15v1H0V0Zm10 11.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-4a.5.5 0 0 0-1 0v2.6l-3.613-4.417a.5.5 0 0 0-.74-.037L7.06 8.233 3.404 3.206a.5.5 0 0 0-.808.588l4 5.5a.5.5 0 0 0 .758.06l2.609-2.61L13.445 11H10.5a.5.5 0 0 0-.5.5Z"/>
@@ -63,8 +59,7 @@
         </li><!--//nav-item-->
 
         <li class="nav-item">
-          <!--//Bootstrap Icons: https://icons.getbootstrap.com/ -->
-          <a class="nav-link" [routerLink]="['orders']">
+          <a class="nav-link" [routerLink]="['accounts']">
 						        <span class="nav-icon">
 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bank" viewBox="0 0 16 16">
   <path d="M8 .95 14.61 4h.89a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v7a.5.5 0 0 1 .485.379l.5 2A.5.5 0 0 1 15.5 17H.5a.5.5 0 0 1-.485-.621l.5-2A.5.5 0 0 1 1 14V7H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 4h.89L8 .95zM3.776 4h8.447L8 2.05 3.776 4zM2 7v7h1V7H2zm2 0v7h2.5V7H4zm3.5 0v7h1V7h-1zm2 0v7H12V7H9.5zM13 7v7h1V7h-1zm2-1V5H1v1h14zm-.39 9H1.39l-.25 1h13.72l-.25-1z"/>
@@ -73,10 +68,18 @@
             <span class="nav-link-text">Contas</span>
           </a><!--//nav-link-->
         </li><!--//nav-item-->
+
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['categories']">
+						        <span class="nav-icon">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bank" viewBox="0 0 16 16">
+  <path d="M8 .95 14.61 4h.89a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v7a.5.5 0 0 1 .485.379l.5 2A.5.5 0 0 1 15.5 17H.5a.5.5 0 0 1-.485-.621l.5-2A.5.5 0 0 1 1 14V7H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 4h.89L8 .95zM3.776 4h8.447L8 2.05 3.776 4zM2 7v7h1V7H2zm2 0v7h2.5V7H4zm3.5 0v7h1V7h-1zm2 0v7H12V7H9.5zM13 7v7h1V7h-1zm2-1V5H1v1h14zm-.39 9H1.39l-.25 1h13.72l-.25-1z"/>
+</svg>
+						         </span>
+            <span class="nav-link-text">Categorias</span>
+          </a><!--//nav-link-->
+        </li><!--//nav-item-->
       </ul><!--//app-menu-->
     </nav><!--//app-nav-->
-
-
-
   </div><!--//sidepanel-inner-->
 </div><!--//app-sidepanel-->
