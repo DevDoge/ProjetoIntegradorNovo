@@ -6797,7 +6797,7 @@ textarea.form-control-lg {
 
 .d-flex {
     display: -webkit-flex !important;
-    display: flex !important
+    display: flex !important;
 }
 
 .d-inline-flex {
@@ -8723,7 +8723,7 @@ textarea.form-control-lg {
 
     .d-md-flex {
         display: -webkit-flex !important;
-        display: flex !important
+        display: flex !important;
     }
 
     .d-md-inline-flex {
