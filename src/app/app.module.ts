@@ -22,13 +22,11 @@ import { LoginComponent } from './external/login/login.component';
 import { ResetPasswordComponent } from './external/reset-password/reset-password.component';
 import { SingupComponent } from './external/singup/singup.component';
 import { ErrorComponent } from './external/error/error.component';
-import { ChartsComponent } from './wrapper/charts/charts.component';
 import {AppRoutingModule} from "./app-routing/app-routing.module";
 import { WrapperAccountComponent } from './wrapper/account/wrapper-account/wrapper-account.component';
 import { LayoutComponent } from './layout/layout.component';
 import { WrapperSettingsComponent } from './wrapper/settings/wrapper-settings/wrapper-settings.component';
 import { WrapperNotificationsComponent } from './wrapper/notifications/wrapper-notifications/wrapper-notifications.component';
-import { WrapperChartsComponent } from './wrapper/charts/wrapper-charts/wrapper-charts.component';
 import { WrapperHelpComponent } from './wrapper/help/wrapper-help/wrapper-help.component';
 import {WrapperTransactionsComponent} from "./wrapper/transactions/wrapper-transactions/wrapper-transactions.component";
 import {WrapperIncomesComponent} from "./wrapper/incomes/wrapper-incomes/wrapper-incomes.component";
@@ -60,12 +58,10 @@ import {WrapperCategoriesComponent} from "./wrapper/categories/wrapper-categorie
     ResetPasswordComponent,
     SingupComponent,
     ErrorComponent,
-    ChartsComponent,
     WrapperAccountComponent,
     LayoutComponent,
     WrapperSettingsComponent,
     WrapperNotificationsComponent,
-    WrapperChartsComponent,
     WrapperHelpComponent,
     WrapperTransactionsComponent,
     WrapperIncomesComponent,
