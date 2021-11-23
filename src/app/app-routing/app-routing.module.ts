@@ -5,6 +5,7 @@ import {WrapperAccountComponent} from "../wrapper/account/wrapper-account/wrappe
 import {LayoutComponent} from "../layout/layout.component";
 import {WrapperSettingsComponent} from "../wrapper/settings/wrapper-settings/wrapper-settings.component";
 import {ErrorComponent} from "../external/error/error.component";
+import {LoginComponent} from "../external/login/login.component";
 import {WrapperNotificationsComponent} from "../wrapper/notifications/wrapper-notifications/wrapper-notifications.component";
 import {WrapperHelpComponent} from "../wrapper/help/wrapper-help/wrapper-help.component";
 import {WrapperTransactionsComponent} from "../wrapper/transactions/wrapper-transactions/wrapper-transactions.component";
@@ -12,6 +13,7 @@ import {WrapperIncomesComponent} from "../wrapper/incomes/wrapper-incomes/wrappe
 import {WrapperExpensesComponent} from "../wrapper/expenses/wrapper-expenses/wrapper-expenses.component";
 import {WrapperAccountsComponent} from "../wrapper/accounts/wrapper-accounts/wrapper-accounts.component";
 import {WrapperCategoriesComponent} from "../wrapper/categories/wrapper-categories/wrapper-categories.component";
+
 
 
 const routes: Routes = [
@@ -30,7 +32,8 @@ const routes: Routes = [
       {path: 'expenses', component: WrapperExpensesComponent},
       {path: 'accounts', component: WrapperAccountsComponent},
       {path: 'categories', component: WrapperCategoriesComponent},
-      {path: '**', component: ErrorComponent}
+      {path: '**', component: ErrorComponent},
+      {path: 'login', component: LoginComponent},
 
     ]
   }
